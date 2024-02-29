@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "0.0.1",
+  "description": "CODIK i IGRYLKI",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "code": "bin/menu-games.js",
+    "brain-games": "bin/menu-game.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-scm": "bin/brain-scm.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ME",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
